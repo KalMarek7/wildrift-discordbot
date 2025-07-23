@@ -33,7 +33,7 @@ async function getChampionData(champion) {
         console.log(response2.status);
 
         const img = $(".hero-img");
-        const thumbnail = img.contents()["1"].attribs["data-lazy-src"];
+        const thumbnail = img.contents()["1"].attribs["src"];
 
         const lane = $(".recommended-lane").children().text();
 
