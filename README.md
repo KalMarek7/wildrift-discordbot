@@ -1,6 +1,6 @@
 # Wild Rift Discord Bot
 
-This is a simple discord bot that allows to look up Wild Rift champion information. The primary goal of this project was to finally build something that would be useful to me and/or my friends. Throughout building this bot I had the opportunity to learn about node.js runtime and npm ecostystem, namely how to initialize new project and manage dependencies. The bot has one slash command (/champion) that accepts the champion's name and is then scraping two websites ([https://lolwildriftbuild.com/](https://lolwildriftbuild.com/) & [https://wildriftfire.com/](https://wildriftfire.com/)) to finally present nicely formatted champion details as a discord embed card.
+This is a simple discord bot that allows to look up Wild Rift champion information. The bot has one slash command (/champion) that accepts the champion's name and is then scraping two websites ([https://lolwildriftbuild.com/](https://lolwildriftbuild.com/) & [https://wildriftfire.com/](https://wildriftfire.com/)) to finally present nicely formatted champion details as a discord embed card.
 
 ![Screenshot](https://i.ibb.co/ScBJBg3/wrbot.png "Screenshot of the WRBot")
 
